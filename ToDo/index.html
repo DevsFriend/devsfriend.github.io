@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/358b308ed1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Bot.png" type="image/x-icon">
+
+    <title>ToDo | DevFriend</title>
+</head>
+<body>
+    <div onclick="window.open('https:\\\\discord.gg/q7nhnBFhqA', '_blank').focus();" class="discord no-select">
+        <i class="fa-brands fa-discord" ></i>
+        <p>Join our Community</p>
+    </div>
+    
+    <div onclick="location.href = '../'" class="logo no-select">
+        <img src="../Bot.png" alt="Logo">
+        <p class="title">DevFriend</p>
+    </div>
+
+    <div class="alert no-select">
+        <p></p>
+    </div>
+    
+    <div class="Main">
+
+        <div class="wrapper">
+
+            <h1 class="title">ToDo</h1>
+
+            <div class="InputDiv">
+                <input type="text" class="input" placeholder="Insert Text..." oninput="document.query">
+                <i class="fa-solid fa-plus icon"></i>
+            </div>
+
+        </div>
+
+        <div class="ListDiv">
+            
+
+            
+        </div>
+        <div class="ButtonDiv">
+            <button class="Button">Import<input type="file" id="Import" class="InputFile" accept=".json" /></button>
+            <button class="Button" onclick="Export()">Export</button>
+        </div>
+    </div>
+        
+
+
+    <div class="footer no-select">
+        <p class="title">Credits</p>
+    
+        <div class="Credits">
+          <p>Coding: Lorix</p>
+          <p>Web Design: Lorix</p>
+          <p>Supporter: Traba</p>
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
